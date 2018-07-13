@@ -26,4 +26,4 @@
 
 If you plan to send mutliple clusters of data to the same datadog endpoint, it's useful to add the cluster name as a host tag (e.g. kube-cluster-name:CLUSTERNAME).  This will allow you to sort data by scope to a specific cluster, as well as group data by cluster within a dashboard.  In the below dashboard we have grouped node data by cluster in a few of the default widgets.
 
-![Dashboard](https://github.com/kylerome/datadog-rancher-integration/blob/master/docs/images/datadogDashboard.png)
+![Dashboard](https://github.com/kylerome/datadog-rancher-integration/blob/master/docs/images/datadogDashboard.PNG)
