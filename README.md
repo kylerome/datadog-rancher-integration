@@ -11,7 +11,7 @@
         extra_args:
           read-only-port: 10255
    ```
-__NOTE:__ You should make sure this port is properly firewalled
+   __NOTE:__ You should make sure this port is properly firewalled
 1. A Kubernetes 1.8+ cluster attached to a Rancher installation
 ## Setup & Configuration
 1. The [Datadog Rancher Chart](https://github.com/rancher/charts/tree/master/charts/datadog/v1.0.0) is available by default in the Rancher library, there is also a Datadog chart in Helm stable but we suggest using the Rancher library chart for ease of use.  The Rancher library is enabled by default, if disabled this setting can be modified under Global->Catalogs.
