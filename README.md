@@ -15,6 +15,9 @@
 1. A Kubernetes 1.8+ cluster attached to a Rancher installation
 ## Setup & Configuration
 1. The Datadog chart (chart) is available through both Helm stable and the Rancher library, for ease of use we would suggest using the chart in Rancher Library.  The Rancher library is enabled by default, if disabled this setting can be modified under Global->Catalogs.
+
+![Catalog](https://github.com/kylerome/datadog-rancher-integration/blob/master/docs/images/Chart.png)
+
 2. The charts values.yaml file configuration options have been made available through the UI in Rancher, to learn more about them please refer to the values.yaml file which has additional information and links describing the variables. (Link to chart)
 
 ## Dashboards
