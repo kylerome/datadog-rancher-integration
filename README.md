@@ -1,6 +1,6 @@
 # Datadog on Rancher 2.0
 
-[Datadog](https://www.datadoghq.com/) is a popular hosted monitoring solution for aggregating and analyzing metrics and events for distributed systems.  From infrastructure integrations to collaborative dashboards, Datadog gives you a clean single pane view into the information that is most important to you.  To make Datadog easy to use with Rancher 2.0, we have modified the Datadog [Helm](https://helm.sh/) chart to make it a simple one click deployment through Rancher's catalog feature that will function across.
+[Datadog](https://www.datadoghq.com/) is a popular hosted monitoring solution for aggregating and analyzing metrics and events for distributed systems.  From infrastructure integrations to collaborative dashboards, Datadog gives you a clean single pane view into the information that is most important to you.  To make Datadog easy to use with Rancher 2.0, we have modified the Datadog [Helm](https://helm.sh/) chart to make it a simple deployment through Rancher's catalog feature that will function across Rancher projects within a cluster.
 
 ## Prerequisites
 1. Datadog API Key (you can use an existing secret with your API key, or let the chart make one for you)
