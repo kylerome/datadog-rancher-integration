@@ -1,6 +1,6 @@
 # Datadog on Rancher 2.0
 
-[Datadog](https://www.datadoghq.com/) is a popular hosted monitoring solution for aggregating and analyzing metrics and events for distributed systems.  From infrastructure integrations to collaborative dashboards, Datadog gives you a clean single pane view into the information that is most important to you.  To make Datadog easy to use with Rancher 2.0, we have modified the Datadog [Helm](https://helm.sh/) chart to make it a simple deployment through Rancher's catalog feature that will function across Rancher projects within a cluster.
+[Datadog](https://www.datadoghq.com/) is a popular hosted monitoring solution for aggregating and analyzing metrics and events for distributed systems.  From infrastructure integrations to collaborative dashboards, Datadog gives you a clean single pane view into the information that is most important to you.  Leveraging Datadog with Rancher can then give you a full stack view of all of your applications running on Kubernetes clusters, wherever they are hosted.  To make Datadog easy to use with Rancher 2.0, we have modified the Datadog [Helm](https://helm.sh/) chart to make it a simple deployment through Rancher's catalog feature that will function across Rancher projects within a cluster.
 
 ## Prerequisites
 1. Datadog API Key (you can use an existing secret with your API key, or let the chart make one for you)
@@ -27,3 +27,4 @@
 If you plan to send mutliple clusters of data to the same datadog endpoint, it's useful to add the cluster name as a host tag (e.g. `kube-cluster-name:CLUSTERNAME`) when configuring the Helm chart.  This will allow you to sort data by scope to a specific cluster, as well as group data by cluster within a dashboard.  In the below dashboard we have grouped node data by cluster in a few of the default widgets for the clusters 'dash-1' and dash-2'.
 
 ![Dashboard](https://github.com/kylerome/datadog-rancher-integration/blob/master/docs/images/datadogDashboard.PNG)
+
