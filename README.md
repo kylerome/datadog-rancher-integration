@@ -28,3 +28,6 @@ If you plan to send mutliple clusters of data to the same datadog endpoint, it's
 
 ![Dashboard](https://github.com/kylerome/datadog-rancher-integration/blob/master/docs/images/datadogDashboard.PNG)
 
+## Conclusion
+
+Using helm to deploy applications provides a tested, standardized deployment method.  With the Rancher Catalog UI, helm charts are even easier to use and configure.  With the addition of the Datadog chart to the Rancher library, users can now leverage this workflow for one of the top enterprise ready solutions for monitoring and alerting with Kubernetes.
